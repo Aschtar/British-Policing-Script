@@ -28,7 +28,7 @@ namespace British_Policing_Script
             //Event handler for detecting if the player goes on duty
 
             Functions.OnOnDutyStateChanged += Functions_OnOnDutyStateChanged;
-            Game.LogTrivial("British Policing Script " + Assembly.GetExecutingAssembly().GetName().Version.ToString() + ", developed by Albo1125, has been initialised.");
+            Game.LogTrivial("British Policing Script " + Assembly.GetExecutingAssembly().GetName().Version.ToString() + ", by Albo1125 updated by Aschtar for LSPDFR 0.4.9");
             Game.LogTrivial("Go on duty to start British Policing Script.");
 
 
@@ -37,12 +37,12 @@ namespace British_Policing_Script
 
 
         internal static Version Albo1125CommonVer = new Version("6.6.4.0");
-        internal static Version MadeForGTAVersion = new Version("1.0.1604.1");
+        internal static Version MadeForGTAVersion = new Version("1.0.2699.0");
         internal static float MinimumRPHVersion = 0.51f;
         internal static string[] AudioFilesToCheckFor = new string[] { "LSPDFR/audio/scanner/British Policing Script Audio/Crimes/BRITISHCRIME_FAILTOSTOP.wav" };
         internal static string[] OtherFilesToCheckFor = new string[] { "Plugins/LSPDFR/Traffic Policer.dll", "Plugins/LSPDFR/Arrest Manager.dll", "Plugins/LSPDFR/LSPDFR+.dll" };
-        internal static Version RAGENativeUIVersion = new Version("1.6.3.0");
-        internal static Version MadeForLSPDFRVersion = new Version("0.4.2");
+        internal static Version RAGENativeUIVersion = new Version("1.9");
+        internal static Version MadeForLSPDFRVersion = new Version("0.4.9");
 
 
         internal static string DownloadURL = "http://bit.ly/BritishScript";
@@ -51,9 +51,9 @@ namespace British_Policing_Script
         internal static string PluginName = "British Policing Script";
         internal static string Path = "Plugins/LSPDFR/British Policing Script.dll";
 
-        internal static Version TrafficPolicerVersion = new Version("6.15.0.0");
-        internal static Version ArrestManagerVersion = new Version("7.10.0.0");
-        internal static Version LSPDFRPlusVersion = new Version("1.7.0.0");
+        internal static Version TrafficPolicerVersion = new Version("6.16.0.1");
+        internal static Version ArrestManagerVersion = new Version("7.10.0.1");
+        internal static Version LSPDFRPlusVersion = new Version("1.9.1.1");
 
 
         static void Functions_OnOnDutyStateChanged(bool onDuty)
